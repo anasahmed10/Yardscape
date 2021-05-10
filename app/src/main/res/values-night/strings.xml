@@ -1,0 +1,64 @@
+<resources>
+    <string name="yardscape">Yardscape</string>
+    <string name="app_name">Yardscape</string>
+    <string name="current_listings">Current Listings for Today</string>
+    <string name="nameLine">Listing Title</string>
+    <string name="date">Date</string>
+    <string name="address">Address</string>
+    <string name="create_listing">Create Listing</string>
+    <string name="description">Description (optional)</string>
+    <string name="time">Time of listing</string>
+    <string name="dummyListing">A new listings title will appear here</string>
+    <string name="empty_screen">\"There are currently no listings in your area\"</string>
+    <string name="btn_retry">Retry</string>
+    <item name="defaultPicture" type="string">src\main\res\drawable\android_image_1.xml</item>
+    <item name="imageThumbnail" type="string">Image Preview</item>
+    <item name="uploadImage" type="string">Upload Image</item>
+
+
+    <string name="demoTitle">Example Title</string>
+    <string name="demoDate">December 24, 2020</string>
+    <string name="demoTime">17:00</string>
+    <string name="demoDesc">Information the user submitted about the listing </string>
+
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <string name="email">E-Mail Address</string>
+    <string name="confirmEmail">Confirm E-Mail Address</string>
+    <string name="password">Password</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="forgotPass">Forgot Password?</string>
+    <string name="recoverAccount">Recover Account</string>
+    <string name="createAccount">Create Account</string>
+    <string name="loginSuccess">Login Successful!</string>
+
+    <string name="home">Home</string>
+    <item name="account" type="string">Account</item>
+    <item name="settings" type="string">Settings</item>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+    <string name="accountPage">Your listings</string>
+    <string name="welcome">Welcome to Yardscape. To begin swipe from the left side or click the menu button on the top left corner</string>
+    <string name="signout">Sign Out</string>
+
+
+</resources>

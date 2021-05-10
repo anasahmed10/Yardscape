@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "454184145219",
+    "project_id": "yardscape-1c1d8",
+    "storage_bucket": "yardscape-1c1d8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:454184145219:android:1220a62f0868e85f0fdff6",
+        "android_client_info": {
+          "package_name": "com.example.yardscapelistingprototype"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "454184145219-u63652qd4m82vuelk6sqkm5iaksciii2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrlMp09lDNO9OrsW2JmBkbdundsZrveHc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "454184145219-u63652qd4m82vuelk6sqkm5iaksciii2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

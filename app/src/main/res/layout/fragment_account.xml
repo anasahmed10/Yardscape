@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/backgroundColor"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.AccountFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/signoutButton"
+
+            android:layout_width="144dp"
+            android:layout_height="59dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="125dp"
+            android:layout_marginTop="56dp"
+            android:text="@string/signout"
+            android:textColor="@color/textColor"></Button>
+
+        <TextView
+            android:id="@+id/your_listings"
+            android:textColor="@color/textColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/signoutButton"
+            android:text="@string/your_listings"
+            android:textAlignment="center"></TextView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/accountRecyclerView"
+            android:layout_width="373dp"
+            android:layout_height="500dp"
+            android:layout_below="@+id/your_listings"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="20dp" />
+
+    </RelativeLayout>
+
+
+
+</FrameLayout>

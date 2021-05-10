@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/backgroundColor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.CreateFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/create_name"
+            android:textColor="@color/textColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/create_date"
+            android:layout_alignParentEnd="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginEnd="95dp"
+            android:layout_marginBottom="27dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/nameLine"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/create_description"
+            android:textColor="@color/textColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginEnd="98dp"
+            android:layout_marginBottom="360dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="@string/description"
+            android:inputType="textMultiLine" />
+
+        <EditText
+            android:id="@+id/create_date"
+            android:textColor="@color/textColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/create_time"
+            android:layout_alignParentEnd="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginEnd="97dp"
+            android:layout_marginBottom="26dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:focusable="false"
+            android:hint="@string/date"
+            android:inputType="date" />
+
+        <EditText
+            android:id="@+id/create_time"
+            android:textColor="@color/textColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/create_description"
+            android:layout_alignParentEnd="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginEnd="101dp"
+            android:layout_marginBottom="26dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:focusable="false"
+            android:hint="@string/time"
+            android:inputType="time" />
+
+        <Button
+            android:id="@+id/createListingButton"
+            android:background="@color/backgroundColor"
+            android:textColor="@color/textColor"
+            android:layout_width="155dp"
+            android:layout_height="69dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginEnd="125dp"
+            android:layout_marginBottom="83dp"
+            android:text="@string/create_listing" />
+
+        <ImageView
+            android:id="@+id/imagePreview"
+            android:layout_width="137dp"
+            android:layout_height="108dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="72dp"
+            android:layout_marginBottom="192dp"
+            android:contentDescription="Any user image uploaded will be displayed here"
+            app:srcCompat="@drawable/profile_icon" />
+
+        <Button
+            android:id="@+id/uploadImageButton"
+            android:background="@color/backgroundColor"
+            android:textColor="@color/textColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="53dp"
+            android:layout_marginBottom="222dp"
+            android:text="@string/uploadImage" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:textColor="@color/textColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="93dp"
+            android:layout_marginBottom="309dp"
+            android:text="@string/imageThumbnail" />
+
+    </RelativeLayout>
+
+</FrameLayout>

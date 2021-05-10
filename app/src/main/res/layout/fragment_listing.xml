@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/backgroundColor"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<!--    &lt;!&ndash;Slider view for displaying our sliding images&ndash;&gt;
+    <com.smarteist.autoimageslider.SliderView
+        android:id="@+id/slider"
+        android:layout_width="match_parent"
+        android:layout_height="226dp"
+        app:sliderAnimationDuration="600"
+        app:sliderAutoCycleDirection="back_and_forth"
+        app:sliderIndicatorAnimationDuration="600"
+        app:sliderIndicatorEnabled="false"
+        app:sliderIndicatorGravity="center_horizontal|bottom"
+        app:sliderIndicatorMargin="15dp"
+        app:sliderIndicatorOrientation="horizontal"
+        app:sliderIndicatorPadding="3dp"
+        app:sliderIndicatorRadius="2dp"
+        app:sliderIndicatorSelectedColor="#5A5A5A"
+        app:sliderIndicatorUnselectedColor="#FFF"
+        app:sliderScrollTimeInSec="1" />-->
+    <ImageView
+        android:id="@+id/open_listing_image"
+        android:layout_width="match_parent"
+        android:layout_height="226dp">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/open_listing_title"
+        android:textColor="@color/textColor"
+        android:layout_width="match_parent"
+        android:layout_height="126dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="259dp"
+        android:text="TextView"
+        android:textSize="20pt" />
+
+    <TextView
+        android:id="@+id/open_listing_date"
+        android:textColor="@color/textColor"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="289dp"
+        android:text="@string/demoDate" />
+
+    <TextView
+        android:id="@+id/open_listing_time"
+        android:textColor="@color/textColor"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="107dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="289dp"
+        android:layout_toEndOf="@+id/open_listing_date"
+        android:text="@string/demoTime" />
+
+    <TextView
+        android:id="@+id/open_listing_desc"
+        android:textColor="@color/textColor"
+        android:layout_width="match_parent"
+        android:layout_height="153dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="99dp"
+        android:text="@string/demoDesc"
+        android:textSize="8pt" />
+</RelativeLayout>

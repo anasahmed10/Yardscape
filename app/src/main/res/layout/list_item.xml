@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_4dp"
+    android:background="@color/backgroundColor"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:elevation="3dp"
+        android:padding="@dimen/card_view_margin"
+        card_view:cardCornerRadius="12dp"
+        android:clickable="true"
+        android:foreground="?selectableItemBackground"
+        android:focusable="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="531dp"
+            android:background="@color/backgroundColor">
+
+            <TextView
+                android:id="@+id/listing_time"
+                style="@style/TextAppearance.AppCompat.Subhead"
+                android:textColor="@color/textColor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/listing_title"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="2dp"
+                android:layout_marginBottom="-52dp"
+                android:padding="@dimen/_8dp"
+                android:text="@string/time"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/thumbnail"
+                android:layout_width="match_parent"
+                android:layout_height="195dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="0dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="@string/defaultPicture"
+                android:scaleType="fitXY"
+                card_view:srcCompat="@drawable/profile_icon" />
+
+            <TextView
+                android:id="@+id/listing_title"
+                style="@style/TextAppearance.AppCompat.Headline"
+                android:textColor="@color/textColor"
+                android:layout_width="381dp"
+                android:layout_height="90dp"
+                android:layout_below="@+id/thumbnail"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"
+                android:padding="@dimen/_8dp"
+                android:text="@string/nameLine"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/listing_date"
+                android:textColor="@color/textColor"
+                style="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/listing_title"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="3dp"
+                android:layout_marginBottom="-102dp"
+                android:padding="@dimen/_8dp"
+                android:text="@string/date"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/listing_desc"
+                android:textColor="@color/textColor"
+                style="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_width="383dp"
+                android:layout_height="104dp"
+                android:layout_below="@+id/listing_title"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="116dp"
+                android:padding="@dimen/_8dp"
+                android:text="@string/description"
+                android:textStyle="normal" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/home"
+            android:icon="@drawable/home_icon"
+            android:title="@string/home">
+        </item>
+
+        <item android:id="@+id/create"
+            android:icon="@drawable/create_button"
+            android:title="Create Listing">
+        </item>
+
+        <item android:id="@+id/profile"
+            android:icon="@drawable/account_icon"
+            android:title="@string/account">
+        </item>
+
+        <item android:id="@+id/settings"
+            android:icon="@drawable/settings_icon"
+            android:title="@string/settings">
+        </item>
+    </group>
+</menu>
